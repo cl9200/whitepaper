@@ -25,7 +25,7 @@ This model effectively prevents misuse of limited resources in the blockchain ne
 
 Hence, a service with frequent user usage needs a different approach. Among various alternatives that have been proposed in the blockchain community, MediBloc decided to use the bandwidth model; the fundamental concept of bandwidth model is to require users to stake a certain amount of cryptocurrency to get their shares of the total bandwidth. The users can utilize a portion of the total transaction of the entire network proportional to their staked cryptocurrency amount. Therefore, users can stake their MED according to how many transactions they would like to make in the blockchain network in a given time window. These staked assets could be withdrawn anytime when a user is not using the network.
 
-| ![Image of Time window](https://github.com/medibloc/whitepaper/blob/master/images/TimeWindow.png) |
+| ![Image of Time window](https://raw.githubusercontent.com/medibloc/whitepaper/master/images/TimeWindow.png) |
 |:--:|
 | *Time window* |
 
@@ -35,7 +35,7 @@ In this model, any person with a certain amount of usage rights (e.g., bandwidth
 
 In the usage rental model, a service provider on top of MediBloc platform can stake a large amount of cryptocurrency, provide a secondary signature for the service users’ transactions, and charge a certain amount of either cryptocurrency or fiat currency. The terms and conditions on providing secondary signatures are determined by the service providers, and MediBloc does not intend to enforce any limitation regarding this matter.
 
-| ![Image of Rental model](https://github.com/medibloc/whitepaper/blob/master/images/RentalModel.png) |
+| ![Image of Rental model](https://raw.githubusercontent.com/medibloc/whitepaper/master/images/RentalModel.png) |
 |:--:|
 | *Usage rental model* |
 
@@ -50,7 +50,7 @@ Bandwidth is calculated as the number of transactions available for seven days b
 ### Merkle Tree of Healthcare Data
 On MediBloc platform, healthcare data is processed and managed in the form of a Merkle tree. The process of making certain types of healthcare data(e.g., HL7 FHIR) into a Merkle tree must be supported by  services that use the specific types of data, and MediBloc provides software tools and guidelines to help facilitate this process.
 
-| ![Image of Merkle tree](https://github.com/medibloc/whitepaper/blob/master/images/MerkleTree.png) |
+| ![Image of Merkle tree](https://raw.githubusercontent.com/medibloc/whitepaper/master/images/MerkleTree.png) |
 |:--:|
 | *HL7 FHIR to Merkle tree* |
 
@@ -63,7 +63,7 @@ In real world, the certification of medical professional is currently taking dif
 
 Thus, MediBloc will not build one common certification system for all but rather allow one or more certification services for each country/region on the MediBloc platform in a decentralized manner. The certification of the medical professional is made by storing both the "Certifier" and "Certified" together in the blockchain. These records can easily be identified by users and the reliability of the certifications could be varied according to the “Certifier”.
 
-| ![Image of Certification](https://github.com/medibloc/whitepaper/blob/master/images/Certification.png) |
+| ![Image of Certification](https://raw.githubusercontent.com/medibloc/whitepaper/master/images/Certification.png) |
 |:--:|
 | *Certifications on the blockchain* |
 
@@ -89,7 +89,7 @@ The entity that records the certification details on MediBloc blockchain should 
 
 Healthcare professionals who want to participate in the MediBloc platform are required to sign up to this service and submit the required documents to prove their qualifications. Upon verifying the legitimacy of a medical professional, the certification service issues a certificate for the healthcare professional and records corresponding data on the blockchain in a form of transaction. The transaction includes hash of the certificate and expiration date.
 
-![Image of Certification process](https://github.com/medibloc/whitepaper/blob/master/images/CertificationProcess.png) |
+![Image of Certification process](https://raw.githubusercontent.com/medibloc/whitepaper/master/images/CertificationProcess.png) |
 |:--:|
 | *Certification process* |
 
@@ -100,7 +100,7 @@ There exists a risk of losing the healthcare data when stored only on the indivi
 
 To solve these issues, a service that relays data transfer and backs up to secondary repository is required. The relay service takes responsibility in smoothly and securely delivering data from professional medical institution to a user and the user to any party that the user wishes to share his or her data.
 
-| ![Image of Data relay](https://github.com/medibloc/whitepaper/blob/master/images/DataRelay.png) |
+| ![Image of Data relay](https://raw.githubusercontent.com/medibloc/whitepaper/master/images/DataRelay.png) |
 |:--:|
 | *Data transfer* |
 
@@ -127,6 +127,6 @@ MediBloc platform consists of various components based on blockchain technology 
 
 ## Roadmap
 
-| ![Image of roadmap](https://github.com/medibloc/whitepaper/blob/master/images/roadmap.png) |
+| ![Image of roadmap](https://raw.githubusercontent.com/medibloc/whitepaper/master/images/roadmap.png) |
 |:--:|
 | *MediBloc platform roadmap* |
